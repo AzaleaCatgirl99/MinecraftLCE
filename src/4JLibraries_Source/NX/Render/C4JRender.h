@@ -75,7 +75,7 @@ public:
     virtual void TextureBindMask(int) = 0;
     virtual void TextureBindVertex(int) = 0;
     virtual void TextureSetTextureLevels(int) = 0;
-    virtual void TextureGetTextureLevels() = 0;
+    virtual int TextureGetTextureLevels() = 0;
     virtual void TextureData(int, int, void*, int, C4JRender::eTextureFormat) = 0;
     virtual void TextureDataUpdate(int, int, int, int, void*, int) = 0;
     virtual void TextureSetParam(int, int) = 0;
